@@ -20,6 +20,7 @@ export class MoviesComponent implements OnInit {
 
   getStuff(){
     this.dataservice.getStuff(this.limit,this.type,this.name).subscribe((result:any)=>{
+      console.log(result)
       this.movies = result['Similar']['Results']
       console.log(this.movies);
     })

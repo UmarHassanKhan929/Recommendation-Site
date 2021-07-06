@@ -1,0 +1,12 @@
+#mainu{
+    margin: auto;
+    padding: 5%;
+    
+}
+
+@media (min-width: 396px) {
+    #mainu{
+        margin: none;
+        padding:none;
+    }
+ }

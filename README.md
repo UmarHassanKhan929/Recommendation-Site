@@ -1,4 +1,6 @@
-# Recommendation
+# Recommendation Site  
+A site to see similars results to entered query  
+made using Angular and tastediveAPI
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.1.0.
 
